@@ -1,12 +1,13 @@
 <script setup>
-
+import appHero from "./components/AppHero.vue"
 </script>
 
 <template>
+  <appHero>
+  </appHero>
   <div>
-    <h1>La mia prima app con Vite!</h1>
+    <h1>Il mio primo amore!</h1>
   </div>
-
 </template>
 
 <style scoped>
